@@ -15,14 +15,6 @@
         var xhr = new XMLHttpRequest();
         var inp = "/channel/send/"+id+"/"+type;
         xhr.open('POST', inp, true);
-    // xhr.onload = function () {
-    //     if (xhr.readyState === xhr.DONE) {
-    //         if (xhr.status === 200) {
-    //             console.log(xhr.response);
-    //             console.log(xhr.responseText);
-    //         }
-    //     }
-    // };
        xhr.send(massage);
     }
 </script>
